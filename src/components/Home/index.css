@@ -1,0 +1,26 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-photo/close-up-sidewalk-with-grass-growing-out-it_1340-42721.jpg?t=st=1722452868~exp=1722456468~hmac=44ec432c667d7788c7403984a0d9d32113df9b7026e80237b9b5ea20225bb994&w=996");
+}
+
+.home-links {
+  margin-top: 20px;
+}
+.white-color {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.home-link {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+}

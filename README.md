@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# User SignUp and Login Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Task Overview
 
-## Available Scripts
+### Create a small web application with three pages using React:
 
-In the project directory, you can run:
+1. **Sign Up Page**
+2. **Log In Page**
+3. **Dashboard Page**
 
-### `npm start`
+## Objective
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Create a user authentication system with Sign Up and Login functionality. Users should be able to register, log in, and view their profile information on a Dashboard page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+### Frontend: React.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend: External API endpoints
 
-### `npm run build`
+### Styling: CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Routing: React Router
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Completion Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Functionality
 
-### `npm run eject`
+Must Have
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Sign Up:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Collect and validate user details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Send user data to the registration API.
+Redirect to the login page upon successful registration.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Login:
 
-## Learn More
+### Validate user credentials.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Authenticate with the login API.
+Store user data in local storage on successful login.
+Redirect to the Dashboard page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Dashboard:
 
-### Code Splitting
+### Retrieve and display user information from local storage.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Nice to Have
+User-friendly error messages for failed actions.
+Enhanced validation for user inputs.
+Guidelines to develop a project
 
-### Analyzing the Bundle Size
+## Must Have
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Follow the provided API documentation for login and registration.
 
-### Making a Progressive Web App
+Implement proper error handling and validation.
+Ensure data from local storage is correctly displayed on the Dashboard.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Nice to Have
 
-### Advanced Configuration
+### Implement additional validation rules for input fields.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Add CSS for better styling and user experience.
+Submission Instructions
+Must Have
+Ensure the application is functional and free from critical bugs.
+Provide clear instructions on how to run the application.
+Nice to Have
+Include optional features such as password visibility toggle, form auto-fill, etc.
 
-### Deployment
+## Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### To enhance the Sign Up and Login pages, you can incorporate design improvements inspired by popular platforms like Freepik, ChatGPT, and other modern sites. Here’s a revised version with improved styling and a cleaner UI
 
-### `npm run build` fails to minify
+## Design file
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Dashboard Page
+
+- **Display User Information**: Show the user's information stored in local storage from the login process.
+- **Creativity**: Design a user-friendly dashboard that displays user information. Include elements like user profile, greeting messages, and any additional data or features you want to add.
+
+1. **Set Up Your React Environment**: Use Create React App to set up your React project.
+
+2. **Create Components**:
+
+   - Sign Up Form Component
+   - Log In Form Component
+   - Dashboard Page Component
+
+3. **Implement Form Validation**: Use React Components for form validations.
+
+4. **Handle API Requests**: Use fetch API for POST requests to the given API URLs.
+
+5. **Store and Retrieve User Data**: Use local storage to save user data upon successful login and retrieve it for display on the Dashboard page.
+6. **Design Responsively**: Use CSS or its frameworks like Bootstrap to ensure your application is visually appealing and responsive.
+
+## APIs
+
+### Registration API: https://syoft.dev/Api/user_registeration/api/user_registeration
+
+### Login API: https://syoft.dev/Api/userlogin/api/userlogin
+
+## Third-party packages
+
+React.js
+React Router
